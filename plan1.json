@@ -1,0 +1,123 @@
+{
+    "list": [
+        {
+            "id": "mat",
+            "alias": "Maths",
+            "when": [
+                {
+                    "day": 1,
+                    "hour": "h5;2",
+                    "type": "cours"
+                },
+                {
+                    "day": 3,
+                    "hour": "h5;2",
+                    "type": "cours"
+                },
+                {
+                    "day": 5,
+                    "hour": "h6",
+                    "type": "cours"
+                }
+            ]
+        },
+        {
+            "id": "alr",
+            "alias": "Algorithmique",
+            "when": [
+                {
+                    "parity": 1,
+                    "day": 1,
+                    "hour": "h1;2",
+                    "type": "labo"
+                },
+                {
+                    "parity": 0,
+                    "day": 3,
+                    "hour": "h2;2",
+                    "type": "labo"
+                }
+            ]
+        },
+        {
+            "id": "cin",
+            "alias": "Cinematique",
+            "when": [
+                {
+                    "day": 1,
+                    "hour": "h4",
+                    "type": "cours"
+                },
+                {
+                    "day": 2,
+                    "hour": "h2",
+                    "type": "cours"
+                }
+            ]
+        },
+        {
+            "id": "ele",
+            "alias": "Electronique",
+            "when": [
+                {
+                    "day": 2,
+                    "hour": "h1",
+                    "type": "cours"
+                },
+                {
+                    "day": 4,
+                    "hour": "h3",
+                    "type": "cours"
+                },
+                {
+                    "day": 5,
+                    "hour": "h1;2",
+                    "type": "labo"
+                }
+            ]
+        },
+        {
+            "id": "aut",
+            "alias": "Automatismes",
+            "when": [
+                {
+                    "day": 2,
+                    "hour": "h3",
+                    "type": "labo"
+                },
+                {
+                    "day": 4,
+                    "hour": "h2",
+                    "type": "cours"
+                },
+                {
+                    "day": 5,
+                    "hour": "h5",
+                    "type": "cours"
+                }
+            ]
+        },
+        {
+            "id": "shi",
+            "alias": "Science Humaines",
+            "when": [
+                {
+                    "day": 2,
+                    "hour": "h5;2",
+                    "type": "labo"
+                }
+            ]
+        },
+        {
+            "id": "ang",
+            "alias": "Anglais",
+            "when": [
+                {
+                    "day": 5,
+                    "hour": "h3",
+                    "type": "tp"
+                }
+            ]
+        }
+    ]
+}
